@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div h1{
+    text-align: center;
+    font-size: 3rem;
+    color: burlywood;
+}
+.store{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 3rem;
+margin-top: 1rem;
+background-color: rgb(83, 185, 180);
+}
+
+.main{
+    
+    text-align: center;
+    border: 2px solid black;
+    width: 450px;
+    height: 430px;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-top:1rem ;
+}
+.main img{
+    width: 200px;
+    height: 200px;
+}
+.main h2,h5{
+    height: 2.2rem;
+overflow: hidden;
+}
+.main button{
+    background-color: aqua;
+    padding: 5px;
+    color: blue;
+    border-radius: 5px;
+}
